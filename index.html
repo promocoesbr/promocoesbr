@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promoções BR</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+min-height:100%;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0b1220,#111827,#1f2937);
+background-attachment:fixed;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+color:white;
+text-align:center;
+}
+
+.box{
+width:100%;
+max-width:850px;
+padding:40px 25px;
+}
+
+.badge{
+display:inline-block;
+padding:12px 20px;
+border-radius:999px;
+background:rgba(255,255,255,.08);
+margin-bottom:28px;
+font-size:clamp(14px,2vw,18px);
+}
+
+h1{
+font-size:clamp(40px,7vw,72px);
+margin-bottom:18px;
+font-weight:800;
+}
+
+p{
+font-size:clamp(19px,3vw,28px);
+margin-bottom:38px;
+line-height:1.5;
+opacity:.92;
+}
+
+/* BOTÕES */
+.botao{
+display:flex;
+justify-content:center;
+align-items:center;
+
+width:100%;
+max-width:620px;   /* todos alinhados igual */
+min-height:84px;   /* mesma altura */
+
+margin:16px auto;
+padding:20px 34px;
+
+border-radius:80px;
+text-decoration:none;
+font-size:clamp(22px,2.2vw,32px);
+font-weight:700;
+
+transition:.2s;
+box-shadow:0 12px 30px rgba(0,0,0,.25);
+
+white-space:nowrap; /* PC não quebra */
+}
+
+.botao:hover{
+transform:translateY(-3px);
+}
+
+.telegram{
+background:#229ED9;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.instagram{
+background:linear-gradient(
+45deg,
+#f58529,
+#dd2a7b,
+#8134af,
+#515bd4
+);
+color:white;
+}
+
+.mercadolivre{
+background:#FFE600;
+color:#111;
+}
+
+.rodape{
+margin-top:42px;
+font-size:clamp(14px,2vw,18px);
+opacity:.7;
+}
+
+/* MOBILE */
+@media (max-width:700px){
+
+body{
+padding:14px;
+}
+
+.box{
+padding:25px 12px;
+}
+
+.botao{
+max-width:100%;
+min-height:auto;
+padding:18px 22px;
+
+white-space:normal;   /* no celular pode quebrar */
+line-height:1.3;
+
+font-size:clamp(18px,5vw,24px);
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<div class="badge">
+🔥 Ofertas atualizadas diariamente
+</div>
+
+<h1>Promoções BR</h1>
+
+<p>
+Entre nos canais e veja produtos recomendados todos os dias.
+</p>
+
+<a class="botao telegram"
+href="https://t.me/wallacepromocoesbr">
+📲 Canal de Promoções - Telegram
+</a>
+
+<a class="botao whatsapp"
+href="https://chat.whatsapp.com/SEUGRUPO">
+🟢 Grupo de Promoções - WhatsApp
+</a>
+
+
+<a class="botao mercadolivre"
+href="https://www.mercadolivre.com.br/social/hcfbaeghd74435">
+🛒 Ofertas do Mercado Livre
+</a>
+
+<a class="botao instagram"
+href="https://instagram.com/promocoesbr.com.br">
+📸 Instagram Oficial
+</a>
+
+<div class="rodape">
+Cupons • Achadinhos • Promoções
+</div>
+
+</div>
+
+</body>
+</html>
